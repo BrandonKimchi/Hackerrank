@@ -14,8 +14,14 @@ public class CircularArrayRotation {
 			nums[i] = scan.nextInt();
 		}
 		
+		int[] shifted = new int[N];
+		
+		for(int i = 0; i < nums.length; i++){
+			shifted[(i+shift) % N] = nums[i];
+		}
+		
 		while(queries-- > 0){
-			System.out.println(nums[(scan.nextInt() + shift -1)%nums.length]);
+			System.out.println(shifted[scan.nextInt()]);
 		}
 	}
 
