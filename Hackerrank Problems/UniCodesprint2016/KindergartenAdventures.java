@@ -24,6 +24,7 @@ public class KindergartenAdventures {
 		}
 		//print out index +1 because people count from 1
 		System.out.println(maxIndex + 1);
+		scan.close();
 	}
 	
 	static int findCompletions(int[] times, int index){

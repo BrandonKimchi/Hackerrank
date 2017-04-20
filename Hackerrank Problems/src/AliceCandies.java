@@ -30,5 +30,6 @@ public class AliceCandies {
             totalCandy += 1+count;
         }
         System.out.println(totalCandy);
+        scan.close();
     }
 }

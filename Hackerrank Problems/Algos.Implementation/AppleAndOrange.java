@@ -27,6 +27,7 @@ public class AppleAndOrange {
 		}
 		System.out.println(applesLanded);
 		System.out.println(orangesLanded);
+		scan.close();
 	}
 
 }

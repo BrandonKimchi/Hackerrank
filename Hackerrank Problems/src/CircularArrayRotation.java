@@ -23,6 +23,7 @@ public class CircularArrayRotation {
 		while(queries-- > 0){
 			System.out.println(shifted[scan.nextInt()]);
 		}
+		scan.close();
 	}
 
 }

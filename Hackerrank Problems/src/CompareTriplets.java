@@ -26,6 +26,7 @@ public class CompareTriplets {
 		}
 		
 		System.out.println(aComparison + " " + bComparison);
+		scan.close();
 	}
 
 }

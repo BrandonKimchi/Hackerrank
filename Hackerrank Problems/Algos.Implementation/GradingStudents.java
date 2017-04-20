@@ -10,6 +10,7 @@ public class GradingStudents {
 		while(N-- > 0){
 			round(scan.nextInt());
 		}
+		scan.close();
 	}
 	
 	private static void round(int grade){

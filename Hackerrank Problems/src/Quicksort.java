@@ -73,6 +73,7 @@ public class Quicksort {
 			ar[i]=in.nextInt(); 
 		}
 		quickSort(ar);
+		in.close();
 	}    
 
 }

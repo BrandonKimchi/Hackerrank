@@ -33,6 +33,7 @@ public class Kangaroo {
 			back.jump();
 		}
 		System.out.println("NO");
+		scan.close();
 	}
 
 }

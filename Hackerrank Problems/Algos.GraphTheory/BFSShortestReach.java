@@ -32,6 +32,7 @@ public class BFSShortestReach {
 			}
 			System.out.println();
 		}
+		scan.close();
 	}
 	
 	/**

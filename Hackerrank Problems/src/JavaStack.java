@@ -10,6 +10,7 @@ public class JavaStack {
 			String input = scan.next();
 			System.out.println(evaluateString(input));
 		}
+		scan.close();
 	}
 	
 	/**

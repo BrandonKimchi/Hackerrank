@@ -19,6 +19,7 @@ public class BirthdayCakeCandles {
 		}
 		//only need count of highest height
 		System.out.println(candleCount.get(maxHeight));
+		scan.close();
 	}
 
 }

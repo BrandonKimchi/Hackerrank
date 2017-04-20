@@ -10,6 +10,7 @@ public class SummingPieces {
 		}
 		
 		System.out.println(allValues(nums)%(1000000000 + 7));
+		scan.close();
 	}
 	
 	static long allValues(int[] nums){
